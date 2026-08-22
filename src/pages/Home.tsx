@@ -21,7 +21,7 @@ const Home = () => {
 					<span className="text-red-600 text-shadow-black text-shadow-lg">
 						<Typewriter
 							options={{
-								strings: ["Mertcan Çetinkaya", "m3rt", "Dexter Morgan", "Mert", "Switzerland", "Brian Moser", "Kyle Butler", "Jim Lindsay", "Daryl Tucker"],
+								strings: ["Mertcan Çetinkaya", "m3rt", "Dexter Morgan", "Mert", "Chair", "Switzerland", "Brian Moser", "Kyle Butler", "Jim Lindsay", "Daryl Tucker"],
 								autoStart: true,
 								loop: true,
 								delay: 75,
