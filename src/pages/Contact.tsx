@@ -47,7 +47,7 @@ const Contact = () => {
 	];
 
 	return (
-		<section className="bg-gradient-to-tr from-black via-red-950 to-red-600 min-h-screen font-inter flex flex-col justify-center items-center px-6 py-16 font-medium text-neutral-300 w-full overflow-hidden relative">
+		<section className="bg-gradient-to-tr from-black via-neutral-950 to-red-700 min-h-screen font-inter flex flex-col justify-center items-center px-6 py-16 font-medium text-neutral-300 w-full overflow-hidden relative">
 			<div className="max-w-4xl w-full flex flex-col items-center gap-8 text-center relative z-10">
 				<div className="text-center mb-8">
 					<h1 className="text-4xl sm:text-5xl font-extrabold leading-tight tracking-tight mb-4">{t.title}</h1>
