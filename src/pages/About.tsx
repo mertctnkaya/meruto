@@ -1,5 +1,6 @@
 import { useLanguage } from "../i18n/LanguageProvider";
 import translations from "../i18n/translates";
+import { Link } from "react-router-dom";
 
 const About = () => {
 	const { language } = useLanguage();
@@ -50,17 +51,16 @@ const About = () => {
 						</div>
 					</div>
 				</div>
-				{/* Call to Action Bölümü */}
 				<div className="mt-16 text-center relative z-10 w-full max-w-2xl">
 					<h3 className="text-2xl font-bold text-white mb-4">
 						{language === "tr" ? "Bir fikriniz mi var?. Birlikte çalışalım." : "Have an idea? Let's work together."}
 					</h3>
-					<a
-						href="/contact"
+					<Link
+						to="/contact"
 						className="inline-block px-8 py-3 bg-red-700 text-white font-bold rounded-md hover:bg-red-600 transition-colors shadow-[0_0_15px_rgba(220,38,38,0.3)] hover:shadow-[0_0_25px_rgba(220,38,38,0.5)]"
 					>
 						{language === "tr" ? "İletişime Geç" : "Get in Touch"}
-					</a>
+					</Link>
 				</div>
 			</div>
 		</section>

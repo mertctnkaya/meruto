@@ -3,6 +3,7 @@ import { FiDownload } from "react-icons/fi";
 import { useLanguage } from "../i18n/LanguageProvider";
 import translations from "../i18n/translates";
 import Typewriter from "typewriter-effect";
+import { Link } from "react-router-dom";
 
 const Home = () => {
 	const { language } = useLanguage();
@@ -35,8 +36,8 @@ const Home = () => {
 				<p className="text-lg sm:text-xl text-neutral-400">{t.desc}</p>
 				<div className="flex flex-wrap gap-4 mt-4">
 					<a
-						href="/cv.pdf"
-						download
+						href={language === "tr" ? "/cv_tr.pdf" : "/cv_en.pdf"}
+						download={`Mertcan_Cetinkaya_CV_${language.toUpperCase()}.pdf`}
 						className="inline-flex items-center gap-2 px-4 py-2 font-semibold rounded-md bg-red-700 text-white hover:bg-red-950 transition"
 					>
 						<FiDownload size={18} /> {t.downloadCv}
@@ -62,12 +63,12 @@ const Home = () => {
 				<h3 className="text-2xl font-bold text-white mb-4">
 					{language === "tr" ? "Bir fikriniz mi var? Birlikte çalışalım." : "Have an idea? Let's work together."}
 				</h3>
-				<a
-					href="/contact"
+				<Link
+					to="/contact"
 					className="inline-block px-8 py-3 bg-red-700 text-white font-bold rounded-md hover:bg-red-600 transition-colors shadow-[0_0_15px_rgba(220,38,38,0.3)] hover:shadow-[0_0_25px_rgba(220,38,38,0.5)]"
 				>
 					{language === "tr" ? "İletişime Geç" : "Get in Touch"}
-				</a>
+				</Link>
 			</div>
 		</section>
 	);

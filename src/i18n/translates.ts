@@ -35,6 +35,12 @@ const translations = {
 			],
 			experience: [
 				{
+					title: "Metal Production & Steel Fabrication",
+					company: "Aisin",
+					period: "June 2026 – Aug 2026",
+					desc: "Actively engaged in the metal production line and steel fabrication processes, gaining direct on-field experience in industrial manufacturing and shift-based operational dynamics."
+				},
+				{
 					title: "IT - Maintenance Trainee",
 					company: "Autoliv Cankor GOSB, Gebze, Kocaeli",
 					period: "Sep 2023 – Jun 2024",
@@ -134,6 +140,12 @@ const translations = {
 				"İlgi Alanları: Elektro Gitar, Dil Öğrenimi, Kitap Okumak"
 			],
 			experience: [
+				{
+					title: "Üretim ve Çelik Şekillendirme Elemanı",
+					company: "Aisin",
+					period: "Haz 2026 – Ağu 2026",
+					desc: "Metal üretim hattında ve çelik konstrüksiyon süreçlerinde aktif görev alarak endüstriyel imalat, fabrika işleyişi ve vardiyalı çalışma sistemleri hakkında doğrudan saha tecrübesi ediniyorum."
+				},
 				{
 					title: "IT - Bakım Stajyeri",
 					company: "Autoliv Cankor GOSB, Gebze, Kocaeli",
