@@ -1,8 +1,8 @@
-# Meruto - Dijital Vitrinim
+# Meruto - Dijital Portfölyom
 
-Merhaba, ben Mertcan. 
+Merhaba, ben Mert.
 
-Bu depo (repository), internetteki kişisel vitrinim ve dijital özgeçmişim olan [meruto.vercel.app](https://meruto.vercel.app) sitesinin kaynak kodlarını barındırıyor. Bu siteyi standart bir yazılımcı portfolyosu olsun diye değil; kim olduğumu, vizyonumu ve asıl hedeflerimi insanlara –ister bir arkadaşım olsun ister masasına oturduğum bir işveren– net bir şekilde anlatabilmek için tasarladım.
+Bu repo, internetteki dijital özgeçmişim olan [meruto.vercel.app](https://meruto.vercel.app) sitesinin kaynak kodlarını barındırıyor. Bu siteyi standart bir yazılımcı portfolyosu olsun diye değil; kim olduğumu, vizyonumu ve asıl hedeflerimi insanlara –ister bir arkadaşım olsun ister masasına oturduğum bir işveren– net bir şekilde anlatabilmek için tasarladım.
 
 ## Neden Bu Siteyi Yaptım?
 
